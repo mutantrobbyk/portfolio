@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/family.jpg'
+import pic04 from '../images/moto.jpg'
 
 class Main extends React.Component {
   render() {
@@ -31,14 +32,19 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
+          <span className="image main"><img src={pic03} alt="family" /></span>
           <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <span className="image main"><img src={pic04} alt="moto" /></span>
+
+          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <h4>Send me an email, or check me out at one of the links below...or both!</h4>
+          <form  method="POST" action="https://formspree.io/robertknowles02@msn.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -57,10 +63,10 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/robert-knowles-187072127/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://www.youtube.com/channel/UCis4AJ9eLFPuclxz5duxnwA?view_as=subscriber" className="icon fa-youtube"><span className="label">Youtube</span></a></li>
+            <li><a href="https://www.instagram.com/mutantrobbyk/?hl=en" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+            <li><a href="https://github.com/mutantrobbyk" className="icon fa-github"><span className="label">GitHub</span></a></li>
           </ul>
           {close}
         </article>
