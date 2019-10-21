@@ -85,6 +85,18 @@
 					}
 				}
 			}
+			.technologies-1 {
+				width: 100%;
+				height: auto;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+			  }
+			  .technologies-1 img {
+				height: 60px;
+				width: 60px;
+			  }
 
 		}
 
