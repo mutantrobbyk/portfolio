@@ -218,6 +218,7 @@ class Main extends React.Component {
             Send me an email, or check me out at one of the links below...or
             both!
           </h4>
+          <h4><a href="https://drive.google.com/file/d/1tuyuabL8iU_maouAIj7xJOI8DjKBqeWN/view?usp=sharing">Download My Resume Here!</a></h4>
           <form
             method="POST"
             action="https://formspree.io/robertknowles02@msn.com"
