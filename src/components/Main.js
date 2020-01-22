@@ -93,7 +93,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src='https://res.cloudinary.com/datcltouj/image/upload/q_auto:eco/v1579659106/zrkcqs84jkm2kirhdwl0.jpg' alt="Sunset" />
           </span>
           <h4>
             <a href="https://www.syndicate-development.com">
